@@ -1,0 +1,70 @@
+/* Base Styles */
+body {
+  font-size: 16px;
+  color: #333333;
+  background-color: #f7f7f7;
+}
+
+/* Header & Navbar Styling */
+#header-nav {
+  background-color: #d9534f;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+#brand-name {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#brand-name:hover, #brand-name:focus {
+  color: #e6e6e6;
+}
+
+.navbar-toggle {
+  border-color: #ffffff;
+  margin-top: 10px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* Mobile Dropdown Styling */
+#nav-list {
+  background-color: #e6e6e6;
+  margin: 0 -15px;
+}
+
+#nav-list li a {
+  color: #333333;
+  font-size: 1.2em;
+  border-bottom: 1px solid #cccccc;
+  padding: 12px;
+}
+
+#nav-list li a:hover {
+  background-color: #d0d0d0;
+}
+
+/* Page Heading */
+h1 {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Content Sections */
+.section-box {
+  background-color: #e7e7e7;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-box h3 {
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
